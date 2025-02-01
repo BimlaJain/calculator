@@ -27,12 +27,12 @@ export default function Calculator() {
 
     return (
         <div className="flex justify-center items-center min-h-screen bg-black">
-            <div className="w-80 bg-white p-5 rounded-2xl shadow-xl">
+            <div className="w-80 !bg-white p-5 rounded-2xl shadow-xl">
                 <input
                     type="text"
                     value={input}
                     readOnly
-                    className="w-full p-3 text-right text-2xl bg-black rounded-md mb-5 focus:outline-none"
+                    className="w-full p-3 text-right !text-white text-2xl bg-black rounded-md mb-5 focus:outline-none"
                 />
                 <div className="grid grid-cols-4 gap-3">
                     {buttons.map((button) => (
