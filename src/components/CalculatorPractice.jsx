@@ -38,7 +38,7 @@ export default function Calculator() {
                     {buttons.map((button) => (
                         <button
                             key={button}
-                            className={`py-3 rounded-lg shadow-md text-xl font-semibold transition-colors 
+                            className={`py-3 rounded-lg shadow-md text-xl !text-white font-semibold transition-colors 
               ${button === "C" ? "bg-red-400 hover:bg-red-500" : "bg-black hover:bg-gray-700"} 
               ${button === "=" ? "col-span-2 bg-blue-400 hover:bg-blue-500" : ""}`}
                             onClick={() => handleButtonClick(button)}
